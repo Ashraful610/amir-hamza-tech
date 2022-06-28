@@ -87,7 +87,7 @@
 }
 .accordion-div{
     padding: 20px;
-    border: 3px solid rgba(248,176,174,.55) ;
+    border: 3px solid #f2a7a5;
     border-radius:10px;
 }
 .accordion-button{
@@ -97,20 +97,38 @@
     font-weight: 600 !important;
     padding: 14px 15px;
 }
-.count-btn{
-    width: 158px;
-    height: 55px;
-    margin: 20px;
-    border: none;
-    display: flex;
+.third-section{
+    background-color: #f2a7a5;
 }
-.subtrac{
-    display: flex;
-    justify-content: center;
+.third-section-div{
+    margin: 150px 49px 20px 49px !important;
+    height: 360px;
+    align-items: center;
+    width: auto;
 }
-.number{
-    display: flex;
-    justify-content: center;
+.third-section-img{
+    width: 555px;
+    height: 531px;
+    margin-top: -171px;
+}
+.third-section-details{
+    padding:0px 62px 0px 60px !important;
+}
+.third-section-heading{
+    font-size: 36px;
+}
+.third-section-span-tag{
+    font-weight: bold;
+}
+.third-section-paragraph{
+    font-size: 20px;
+}
+.third-section-btn{
+    background-color: black;
+    color: white;
+    padding: 6px 25px;
+    outline: 0;
+    font-size:18px;
 }
 @media screen and (max-width: 415px){
     .banner-div{
@@ -143,5 +161,32 @@
         font-size: 26px;
         text-align: center;
        
+    }
+    .third-section-div{
+        height: 500px;
+        margin: 180px 0px 20px 0px !important;
+        align-items: center;
+        width: auto;
+    }
+    .third-section-img{
+        width: 382px;
+        height: 365px;
+    }
+    .third-section-details{
+        padding:0px 20px 0px 20px !important;
+        text-align: center;
+    }
+    .third-section-heading{
+        font-size: 28px;
+    }
+    .third-section-paragraph{
+        font-size: 18px;
+        text-align: center;
+    }
+    .third-section-btn{
+        background-color: black;
+        color: white;
+        padding: 8px 15px;
+        outline: 0;
     }
 }
