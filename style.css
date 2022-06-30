@@ -276,6 +276,31 @@
     font-size: 2rem;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
+
+/* -------------sixth section ---------------- */
+.sixth-section{
+    padding: 20px 0px;
+}
+.sixth-section-div{
+    margin: 0px 46px;   
+}
+.sixth-section-div h2{
+    text-align: center;
+    font-family: Poppins;
+    font-size: 36px;
+    padding: 20px;
+}
+.sixth-section-div-group{
+    background-color: #969292;
+    margin: 0px !important;
+}
+.sixth-section-img-div{
+    padding:15px;
+}
+.sixth-section-face-img{
+    width: 365px;
+    height: 360px;
+}
 /* mobile responsive */
 @media screen and (max-width: 415px){
     .banner-div{
@@ -387,5 +412,16 @@
     }
     .carousel-details h2{
         font-size: 24px;
+    }
+    /* ----------------sixth section---------------- */
+    .sixth-section-div{
+        margin: 0px;
+    }
+    .sixth-section-div h2{
+        font-size: 32px;
+    }
+    .sixth-section-face-img{
+        width: 387px;
+     
     }
 }
