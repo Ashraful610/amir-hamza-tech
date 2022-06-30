@@ -301,6 +301,51 @@
     width: 365px;
     height: 360px;
 }
+/* -----------seventh-section--------------- */
+.seventh-section{
+    padding: 20px 0px;
+    background-color: rgba(242,167,165,.54);
+}
+.seventh-section-div{
+    margin: 0px 46px;
+    padding: 0px 15px;
+}
+.service-img-div{
+    display: flex;
+    justify-content: center !important;
+}
+.service-details-div{
+    text-align: center;
+}
+.service-details-div h5{
+    font-family: Raleway;
+    font-weight: 700;  
+    color: #000;
+    line-height: 1.5em;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.service-details-div p {
+    font-weight: 500;
+}
+.service-information{
+    margin: 0px 46px;
+    padding: 0px 15px;
+}
+.service-details{
+    text-align: center;
+    background-color: white;
+    padding: 10px 50px ;
+    border: 3px solid black;
+    border-radius:10px;
+}
+.service-details h3{
+    font-weight: 400;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.service-details p {
+    font-size: 18px;
+}
 /* mobile responsive */
 @media screen and (max-width: 415px){
     .banner-div{
@@ -423,5 +468,26 @@
     .sixth-section-face-img{
         width: 387px;
      
+    }
+    /* --------------- seventh section -------------- */
+    .service-information{
+        margin: 0px;
+        padding: 0px 15px;
+    }
+    .service-details{
+        text-align: justify;
+        background-color: white;
+        padding: 10px 10px ;
+        border: 3px solid black;
+        border-radius:10px;
+    }
+    .service-details h3{
+        text-align: center;
+        font-size: 22px;
+        font-weight: bold;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .service-details p {
+        font-size: 18px;
     }
 }
