@@ -217,7 +217,65 @@
     border: none;
 }
 
-
+/* ------------fifth section ----------------*/
+.fifth-section{
+    padding: 20px 0px 40px 0px;
+    background-color: #f2a7a5;
+}
+.fifth-section-div{
+    margin: 0px 46px;
+    padding: 0px 15px;
+}
+.fifth-section-title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    color: #fff;
+    padding: 20px 0px 50px 0px;
+}
+.carousel{
+    background-color: white;
+    padding: 20px;
+}
+.carousel-control-prev-icon{
+    background-color: rgba(0,0,0,.4);
+    border-radius: 50%;
+}
+.carousel-control-next-icon{
+    background-color: rgba(0,0,0,.4);;
+    border-radius: 50%;
+}
+.carousel-img-div{
+    display: flex;
+    justify-content: center ;
+}
+.carousel-img{
+    width: 164px;
+    height: 162px;
+}
+.fa-star{
+    font-size: 25px;
+    color: #f5a623;
+    padding-right: 10px;
+}
+.star-div{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.carousel-details{
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+.carousel-details p {
+    font-size: 18px;
+}
+.carousel-details h2{
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
 /* mobile responsive */
 @media screen and (max-width: 415px){
     .banner-div{
@@ -306,5 +364,28 @@
     .fourth-section-image-2{
         width: 382px;
         height: 316px;
+    }
+
+    /* ---------fifth section ------------------ */
+    .fifth-section{
+        margin-top: 40px;
+    }
+    .fifth-section-div{
+        margin: 0px;
+    }
+    .fifth-section-title{
+        font-size: 30px;
+    }
+    .carousel{
+        padding: 10px 5px;
+    }
+    .carousel-details{
+       padding: 0px 20px;
+    }
+    .carousel-details p {
+        font-size: 16px;
+    }
+    .carousel-details h2{
+        font-size: 24px;
     }
 }
